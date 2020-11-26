@@ -1,0 +1,27 @@
+.App {
+  text-align: center;  
+  height: 600px;
+  overflow: scroll;
+}
+.form{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  margin: 10px;
+  z-index: 1;
+  background-color:lightgray;
+  width: 100%;
+ 
+}
+.formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.input{
+  flex: 1;
+}
+.iconbutton{
+  flex: 0;
+}
+
+
